@@ -1,10 +1,13 @@
-use Map::Metro::Standard::Moops;
+use 5.20.0;
 
-role Map::Metro::Plugin::Map::Stockholm using Moose with MooseX::Object::Pluggable {
-
+package Map::Metro::Plugin::Map::Stockholm  {
+$Map::Metro::Plugin::Map::Stockholm::VERSION = '0.1960';
+use Moose::Role;
     use File::ShareDir 'dist_dir';
     use Path::Tiny;
-    use Types::Path::Tiny 'AbsFile';
+    use Types::Path::Tiny -types;
+
+    with 'Map::Metro::Plugin::Map';
 
     has stockholm => (
         is => 'ro',

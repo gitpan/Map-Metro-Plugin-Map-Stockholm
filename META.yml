@@ -24,4 +24,4 @@ no_index:
 requires:
   Map::Metro: '0'
   perl: '5.020000'
-version: '0.1950'
+version: '0.1960'
