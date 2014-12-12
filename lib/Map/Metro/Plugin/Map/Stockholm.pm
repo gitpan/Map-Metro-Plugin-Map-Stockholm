@@ -1,17 +1,13 @@
 use 5.20.0;
 
-package Map::Metro::Plugin::Map::Stockholm  {
-$Map::Metro::Plugin::Map::Stockholm::VERSION = '0.1962';
-use Moose::Role;
+package Map::Metro::Plugin::Map::Stockholm {
+$Map::Metro::Plugin::Map::Stockholm::VERSION = '0.1963';
+use Moose;
     use File::ShareDir 'dist_dir';
     use Path::Tiny;
-    use Types::Path::Tiny -types;
-
     with 'Map::Metro::Plugin::Map';
 
-    has stockholm => (
-        is => 'ro',
-        isa => AbsFile,
+    has '+mapfile' => (
         default => sub { path(dist_dir('Map-Metro-Plugin-Map-Stockholm'))->child('map-stockholm.metro')->absolute },
     );
 }

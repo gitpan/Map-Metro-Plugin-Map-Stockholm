@@ -1,5 +1,9 @@
 Revision history for Map-Metro-Plugin-Map-Stockholm
 
+0.1963 2014-12-12T23:58:36Z CET
+ [API Changes]
+ - Adaped to new map plugin api (bumped Map::Metro requirement to 0.1700)
+
 0.1962 2014-12-12T13:31:17Z CET
  [Bug Fixes]
  - Required wrong version of Map::Metro
