@@ -5,9 +5,6 @@ SYNOPSIS
         use Map::Metro;
         my $graph = Map::Metro->new('Stockholm')->parse;
 
-        my $routing = $graph->routes_for('Universitetet', 'Kista');
-        print $routing->to_text;
-
 DESCRIPTION
     See Map::Metro for usage information.
 

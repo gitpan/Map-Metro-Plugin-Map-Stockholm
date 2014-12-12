@@ -1,7 +1,7 @@
 use 5.20.0;
 
 package Map::Metro::Plugin::Map::Stockholm  {
-$Map::Metro::Plugin::Map::Stockholm::VERSION = '0.1960';
+$Map::Metro::Plugin::Map::Stockholm::VERSION = '0.1961';
 use Moose::Role;
     use File::ShareDir 'dist_dir';
     use Path::Tiny;
@@ -26,15 +26,12 @@ __END__
 
 Map::Metro::Plugin::Map::Stockholm - Map::Metro map for Stockholm
 
-=for html <p><a style="float: left;" href="https://travis-ci.org/Csson/p5-Map-Metro-Stockholm"><img src="https://travis-ci.org/Csson/p5-Map-Metro-Stockholm.svg?branch=master">&nbsp;</a>
+=for html <p><a style="float: left;" href="https://travis-ci.org/Csson/p5-Map-Metro-Plugin-Map-Stockholm"><img src="https://travis-ci.org/Csson/p5-Map-Metro-Plugin-Map-Stockholm.svg?branch=master">&nbsp;</a>
 
 =head1 SYNOPSIS
 
     use Map::Metro;
     my $graph = Map::Metro->new('Stockholm')->parse;
-
-    my $routing = $graph->routes_for('Universitetet', 'Kista');
-    print $routing->to_text;
 
 =head1 DESCRIPTION
 
