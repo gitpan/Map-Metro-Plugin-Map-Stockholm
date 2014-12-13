@@ -1,5 +1,11 @@
 Revision history for Map-Metro-Plugin-Map-Stockholm
 
+0.1965 2014-12-13T19:14:34Z CET
+ [Enhancements]
+ - Adapted to new improved one-way segment syntax. (Bumps Map::Metro req to
+   0.1800)
+ - Renamed Vreten to Solna strand (Vreten kept as a search name)
+
 0.1964 2014-12-13T02:17:59Z CET
  [Enhancements]
  - Uses the new uni-direction option in segments to correctly only allow
