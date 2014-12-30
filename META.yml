@@ -22,6 +22,7 @@ no_index:
     - eg
     - examples
 requires:
-  Map::Metro: '0.1800'
-  perl: '5.020000'
-version: '0.1965'
+  Map::Metro: '0.1900'
+  Moose::Role: '2.0000'
+  perl: '5.014000'
+version: '0.1966'

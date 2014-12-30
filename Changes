@@ -1,5 +1,14 @@
 Revision history for Map-Metro-Plugin-Map-Stockholm
 
+0.1966 2014-12-30T22:33:31Z CET
+ [Enhancements]
+ - Adapted to Map::Metro 0.1900 map api.
+
+ [Meta]
+ - Bumped required Map::Metro to 0.1900.
+ - Moose::Role is a prereq.
+ - Lowered required Perl version to 5.14.
+
 0.1965 2014-12-13T19:14:34Z CET
  [Enhancements]
  - Adapted to new improved one-way segment syntax. (Bumps Map::Metro req to
