@@ -2,7 +2,7 @@ use 5.14.0;
 
 package Map::Metro::Plugin::Map::Stockholm;
 
-our $VERSION = '0.1966'; # VERSION
+our $VERSION = '0.1967'; # VERSION
 
 use Moose;
 with 'Map::Metro::Plugin::Map';
@@ -38,13 +38,19 @@ Map::Metro::Plugin::Map::Stockholm - Map::Metro map for Stockholm
 
 See L<Map::Metro> for usage information.
 
-=head1 Status
+=head1 STATUS
 
 Per 2014-dec-30 it contains:
 
 * All seven subway lines (L<wikipedia|https://en.wikipedia.org/wiki/Stockholm_metro>)
 
 * The 'Spårväg City' tram line (L<wikipedia|https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City>)
+
+=begin HTML
+
+<p><img src="http://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png" style="max-width: 600px" /></p>
+
+=end HTML
 
 =head1 AUTHOR
 

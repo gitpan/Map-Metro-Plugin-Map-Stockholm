@@ -9,7 +9,9 @@ README
 cpanfile
 dist.ini
 lib/Map/Metro/Plugin/Map/Stockholm.pm
+share/graphviz.conf
 share/map-stockholm.metro
+static/images/stockholm.png
 t/author-no-tabs.t
 t/author-test-eol.t
 t/basic.t
