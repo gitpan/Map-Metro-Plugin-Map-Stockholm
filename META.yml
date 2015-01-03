@@ -25,4 +25,4 @@ requires:
   Map::Metro: '0.2000'
   Moose::Role: '2.0000'
   perl: '5.014000'
-version: '0.1968'
+version: '0.1969'
